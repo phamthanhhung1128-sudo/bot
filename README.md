@@ -1,0 +1,2 @@
+# bot
+BOT DISCORD SERVER
