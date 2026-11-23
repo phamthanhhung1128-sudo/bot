@@ -1,0 +1,50 @@
+{
+  "name": "slideforge-ai",
+  "version": "1.0.0",
+  "description": "SlideForge AI — tạo bài thuyết trình PowerPoint tự động bằng câu lệnh, giao diện sinh động.",
+  "type": "module",
+  "main": "server/index.js",
+  "bin": {
+    "slideforge": "bin/slides.js"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:client": "vite",
+    "dev:server": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "cli": "node bin/slides.js",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "powerpoint",
+    "pptx",
+    "ai",
+    "slides",
+    "presentation",
+    "generator"
+  ],
+  "author": "SlideForge AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamthanhhung1128-sudo/bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phamthanhhung1128-sudo/bot/issues"
+  },
+  "homepage": "https://github.com/phamthanhhung1128-sudo/bot#readme",
+  "dependencies": {
+    "express": "^4.22.3",
+    "pptxgenjs": "^4.0.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "vite": "^8.3.8"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
